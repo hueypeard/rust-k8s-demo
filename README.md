@@ -19,6 +19,7 @@ use fully asynchronous Rust libraries and are based on [tokio](https://tokio.rs/
 - [x] Microservices talking to each other using grpc
 - [x] Local dev setup using skaffold
 - [x] CI: Build code and run e2e tests for each commit in a k8s cluster
+- [x] Using cargo-chef to cache dependencies in Dockerfiles
 
 ## Getting started
 
@@ -51,6 +52,7 @@ use fully asynchronous Rust libraries and are based on [tokio](https://tokio.rs/
 
 ## Todo
 
+- [ ] Features and boilerplate from https://github.com/EmbarkStudios/opensource-template
 - [ ] Service mesh
 - [ ] CD
 - [ ] Distributed (open) tracing - partially done
