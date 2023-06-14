@@ -1,6 +1,6 @@
 # rust-k8s-demo
 
-[![Build & test project](https://github.com/caulagi/rust-k8s-demo/actions/workflows/ci.yml/badge.svg)](https://github.com/caulagi/rust-k8s-demo/actions/workflows/ci.yml)
+[![Build & test project](https://github.com/hueypeard/rust-k8s-demo/actions/workflows/ci.yml/badge.svg)](https://github.com/hueypeard/rust-k8s-demo/actions/workflows/ci.yml)
 
 ![architecture][architecture]
 
@@ -26,12 +26,12 @@ use fully asynchronous Rust libraries and are based on [tokio](https://tokio.rs/
 * The repo requires [git-lfs][git-lfs].
 
     ```shell
-    $ git clone https://github.com/caulagi/rust-k8s-demo
+    $ git clone https://github.com/hueypeard/rust-k8s-demo
 
     # make sure git lfs files have been cloned; otherwise git lfs pull will get the file
     $ ls -lh databaseservice/data
     total 15424
-    -rw-r--r--  1 pradip.caulagi  staff   7.5M Feb 27 15:55 data.sql
+    -rw-r--r--  1 user  staff   7.5M Feb 27 15:55 data.sql
     ```
 
 * Setup a local kubernetes cluster using [kind](https://kind.sigs.k8s.io/).
@@ -50,6 +50,11 @@ use fully asynchronous Rust libraries and are based on [tokio](https://tokio.rs/
 
 **QED** - Go to [http://localhost](http://localhost). See [setup.md](setup.md) for more options for development setup.
 
+## Customising this template
+- [] Modify the authors key of frontendservice/Cargo.toml
+- [] Modify the authors key of quotationservice/Cargo.toml
+- [] Modify the copyright of LICENSE
+
 ## Todo
 
 - [ ] Features and boilerplate from https://github.com/EmbarkStudios/opensource-template
@@ -67,3 +72,5 @@ This project is licensed under [MIT](LICENSE).
 
 [architecture]: https://user-images.githubusercontent.com/222507/96347681-a510fe00-10a3-11eb-8ed7-183c460b5def.png
 [git-lfs]: https://git-lfs.github.com
+
+Based on https://github.com/caulagi/rust-k8s-demo
