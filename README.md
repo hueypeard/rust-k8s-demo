@@ -54,6 +54,7 @@ use fully asynchronous Rust libraries and are based on [tokio](https://tokio.rs/
 - [] Modify the authors key of frontendservice/Cargo.toml
 - [] Modify the authors key of quotationservice/Cargo.toml
 - [] Modify the copyright of LICENSE
+- [] Replace [INSERT EMAIL ADDRESS] with your email address in CODE_OF_CONDUCT.md
 
 ## Todo
 
